@@ -2,24 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Minh Phuoc Ngo | Web Tech | Cert 4 Prog</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/css/site.css" />
   </head>
 
-  <body class="min-h-screen flex flex-col bg-gray-50 text-gray-800">
+  <body class="min-h-screen flex flex-col bg-slate-900 text-slate-200">
     <!-- HEADER -->
     <header class="bg-blue-600 text-white shadow-md">
       <div class="container mx-auto flex justify-between items-center p-4">
             <div class ="flex items-center space-x-3">
                 <img class =" h-12 w-12 object-cover rounded-full border-2 border-white shadow-sm"src = "../assets/images/cancer-zodiac.jpg" alt ="logo" >
-                <h1 class="text-xl sm:text-2xl front-bold leading-tight">Web Technologies Portfolio</h1>
+                <h1 class="text-xl sm:text-2xl front-bold leading-tight"> Minh Phuoc Ngo | Web Technologies Portfolio</h1>
             </div>
         <nav>
           <ul class="flex flex-wrap gap-4 text-sm sm:text-base font-semibold uppercase">
-            <li><a href="." class="hover:underline">HOME PAGE</a></li>
+            <li><a href="home_page.html" class="hover:underline">HOME PAGE</a></li>
             <li><a href="about_us.html" class="hover:underline">ABOUT US</a></li>
             <li><a href="contact.html" class="hover:underline">CONTACT</a></li>
             <li><a href="copyright.html" class="hover:underline">COPYRIGHT</a></li>
@@ -32,86 +32,84 @@
     </header>
 
     <!-- MAIN CONTENT -->
-    <main class="flex-1 container mx-auto px-6 py-10">
-      <article class="bg-white shadow-lg rounded-lg p-6">
-        <header>
-          <h2 class="text-2xl font-bold text-gray-700 mb-4">Certificate IV in IT (Programming)</h2>
-          <p class="mb-6">Web Technologies Portfolio as implemented by Minh Ngo (minhngo2505)</p>
-        </header>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-
-          <!-- PHASE 1 CARD -->
-          <div class="w-full border border-gray-300 flex flex-col gap-4 p-4 rounded shadow bg-white hover:shadow-md transition">
-            <div class="bg-blue-600 text-white p-4 -m-4 mb-0 rounded-t">
-              <h4 class="font-bold text-lg">Phase 1</h4>
-            </div>
-            <div class="flex flex-col gap-2 text-gray-700">
-              <p>Explore the fundamentals of web technologies and HTML structure.</p>
-              <p>Introduction to coding standards and responsive design basics.</p>
-            </div>
-            <div class="bg-gray-100 text-gray-800 p-4 -m-4 mt-0 rounded-b flex justify-end">
-              <a href="phase-1" class="text-blue-600 font-semibold hover:underline">View Details →</a>
-            </div>
+    <main class="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-8 container mx-auto px-4 flex-grow">
+      <!-- left column ( Main Context)-->
+      <div class="lg:col-span-3"></div>
+        <div class="lg:col-span-2 space-y-8">
+          <!-- Welcome CARD -->
+          <div class="content-card bg-slate-800 p-6 sm:p-8 rounded-2xl shadow-md border-t-4 border-t-blue-500">
+            <h2 class="text-2xl font-bold text-white mb-4">Welcome to My Web Technologies Portfolio</h2>
+            <p class=" text-base leading-relaxed text-slate-300 mb-4">
+              Hello! I'm Minh Phuoc Ngo, a passionate web developer dedicated to creating engaging and user-friendly web experiences. This portfolio showcases my journey through the Web Technologies course, highlighting the skills and projects I've developed along the way.
+            </p>
+            <p class=" text-base leading-relaxed text-slate-300">
+              Explore the different phases of my learning journey, from mastering HTML and CSS to implementing dynamic features with JavaScript. Each phase represents a significant milestone in my development as a web professional.
+            </p>
           </div>
 
-          <!-- PHASE 2 CARD -->
-          <div class="w-full border border-gray-300 flex flex-col gap-4 p-4 rounded shadow bg-white hover:shadow-md transition">
-            <div class="bg-blue-600 text-white p-4 -m-4 mb-0 rounded-t">
-              <h4 class="font-bold text-lg">Phase 2</h4>
-            </div>
-            <div class="flex flex-col gap-2 text-gray-700">
-              <p>Focus on layout design and CSS styling using Tailwind and modern tools.</p>
-              <p>Implement responsive navigation and page structure.</p>
-            </div>
-            <div class="bg-gray-100 text-gray-800 p-4 -m-4 mt-0 rounded-b flex justify-end">
-              <a href="phase-2" class="text-blue-600 font-semibold hover:underline">View Details →</a>
-            </div>
+          <!-- My Journey CARD -->
+          <div class="content-card bg-slate-800 p-6 sm:p-8 rounded-2xl shadow-md border-t-4 border-t-blue-500">
+            <h2 class="text-2xl font-bold text-white mb-4">My Journey</h2>
+            <p class=" text-base leading-relaxed text-slate-300 mb-4">
+              I was born in Vietnam and moved to Perth to pursue my passion for Information Technology.
+        Studying at North Metropolitan TAFE has helped me develop problem-solving skills and a creative mindset.
+        I enjoy building responsive, interactive websites that bring ideas to life.
+            </p>
+            <p class=" text-base leading-relaxed text-slate-300">
+              Every project is a step forward in my learning journey.
+            </p>
           </div>
-
-          <!-- PHASE 3 CARD -->
-          <div class="w-full border border-gray-300 flex flex-col gap-4 p-4 rounded shadow bg-white hover:shadow-md transition">
-            <div class="bg-blue-600 text-white p-4 -m-4 mb-0 rounded-t">
-              <h4 class="font-bold text-lg">Phase 3</h4>
-            </div>
-            <div class="flex flex-col gap-2 text-gray-700">
-              <p>Develop and integrate dynamic features using JavaScript.</p>
-              <p>Enhance interactivity and handle user inputs effectively.</p>
-            </div>
-            <div class="bg-gray-100 text-gray-800 p-4 -m-4 mt-0 rounded-b flex justify-end">
-              <a href="phase-3" class="text-blue-600 font-semibold hover:underline">View Details →</a>
-            </div>
-          </div>
-
-          <!-- PHASE 4 CARD -->
-          <div class="w-full border border-gray-300 flex flex-col gap-4 p-4 rounded shadow bg-white hover:shadow-md transition">
-            <div class="bg-blue-600 text-white p-4 -m-4 mb-0 rounded-t">
-              <h4 class="font-bold text-lg">Phase 4</h4>
-            </div>
-            <div class="flex flex-col gap-2 text-gray-700">
-              <p>Work with APIs and back-end integration to build data-driven pages.</p>
-              <p>Showcase your final web portfolio project.</p>
-            </div>
-            <div class="bg-gray-100 text-gray-800 p-4 -m-4 mt-0 rounded-b flex justify-end">
-              <a href="phase-4" class="text-blue-600 font-semibold hover:underline">View Details →</a>
-            </div>
-          </div>
-
+          <!-- Recent Projects CARD -->
+          <div class="content-card bg-slate-800 p-6 sm:p-8 rounded-2xl shadow-md border-t-4 border-t-blue-500">
+            <h2 class="text-2xl font-bold text-white mb-4">Features Projects</h2>
+            <div class="space-y-4">
+              <div>
+                <h3 class="text-xl font-semibold text-white mb-2">Project 1: Weather App</h3>
+                <p class=" text-sm text-slate-300 mb-4">
+                  Displays live weather using a real-time API with responsive layout
+                </p>
+                <a href=" " class ="text-blue-400 font-medium hover:text-blue-300 hover:underline transition"> View Project Details   
+                </a>
+              </div>
+              <div>
+                <h3 class="text-xl font-semibold text-white mb-2">Project 2: Car park System</h3>
+                <p class=" text-sm text-slate-300 mb-4">
+                  Python-based OOP simulation project for managing parking sensors.
+                </p>
+                <a href=" " class ="text-blue-400 font-medium hover:text-blue-300 hover:underline transition"> View Project Details   
+                </a>
+              </div>
+            </div>  
+          </div>  
         </div>
-
-      </article>
+        <!-- right column ( Recent Projects)-->
+        <div class="lg:col-span-1 space-y-8">
+          <!-- Contact Information CARD -->
+          <div class="content-card bg-slate-800 p-6 sm:p-8 rounded-2xl shadow-md border-t-4 border-t-slate-500" >
+            <h2 class="text-2xl font-bold text-white mb-4">Contact Information</h2>
+            <div class="space-x-4">
+              <ul class="space-y-3 text-slate-200">
+                <li><i class="fas fa-envelope text-slate-400 w-5 text-center"></i> Email: Phuoc12072004@gmai.com</li>
+                <li><i class="fas fa-envelope text-slate-400 w-5 text-center"></i> GitHub: github.com/minhngo2505</li>
+                <li><i class="fas fa-envelope text-slate-400 w-5 text-center"></i> Location: Perth, Western Australia</li>
+                <li><i class="fas fa-envelope text-slate-400 w-5 text-center"></i> Student: Certificate IV in IT (Programming), North Metropolitan TAFE</li>
+              </ul>
+            </div>  
+          </div>
+        </div>
+      </div>
     </main>
 
     <!-- FOOTER -->
-    <footer class="bg-gray-900 text-white">
+    <footer class="bg-blue-600 text-white shadow-inner border-t border-blue-500 mt-10">
       <div class="container mx-auto p-4 flex flex-col md:flex-row justify-between items-center text-sm">
         <section class="mb-4 md:mb-0 flex items-center space-x-4">
           <img src="https://placehold.co/64?text=logo" alt="Logo" class="rounded">
           <p>© 2025 Adrian Gould and Minh Ngo — All rights reserved.</p>
         </section>
-         <section>
+        <section>
           <ul class="flex flex-wrap justify-center md:justify-end space-x-6 text-gray-300">
-            <li><a href="." class="hover:text-white">Home</a></li>
+            <li><a href="home_page.html" class="hover:text-white">Home</a></li>
             <li><a href="https://www.northmetrotafe.wa.edu.au/" class="hover:text-white">North Metro TAFE</a></li>
             <li><a href="https://components.dev.screencraft.net.au/" class="hover:text-white">ScreenCraft Dev Sites</a></li>
             <li><a href="contact_us_page.html" class="hover:text-white">Contact Us</a></li>
