@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+        <title>Minh Phuoc Ngo | Web Tech | Cert 4 Prog</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="../assets/css/site.css" >
+    </head>
+
+    <body class="min-h-screen flex flex-col bg-slate-950 text-slate-200">
+        <!-- HEADER -->
+        <header class="relative bg-cover bg-center text-white shadow-md" style="background-image: url('../assets/images/AdobeStock_639572669_Preview.jpeg');">
+        <!-- Dark overlay BEHIND content -->
+        <div class="absolute inset-0 bg-black/50 z-0"></div>
+
+        <!-- Header content -->
+        <div class="relative z-10 container mx-auto flex flex-col md:flex-row justify-between items-center p-6 space-y-3 md:space-y-0">
+            <div class="flex items-center space-x-3">
+            <img class="h-12 w-12 rounded-full border-2 border-white shadow" src="../assets/images/cancer-zodiac.jpg" alt="Logo"/>
+            <h1 class="text-2xl font-bold leading-tight drop-shadow-lg"> Minh Phuoc Ngo | Web Technologies Portfolio</h1>
+            </div>
+            <nav>
+            <ul class="flex flex-wrap gap-4 text-sm sm:text-base font-semibold uppercase drop-shadow-md">
+                <li><a href="home_page.html" class="hover:underline">Home Page</a></li>
+                <li><a href="about_us.html" class="hover:underline">About Us</a></li>
+                <li><a href="contact.html" class="hover:underline">Contact</a></li>
+                <li><a href="copyright.html" class="hover:underline">Copyright</a></li>
+                <li><a href="project.html" class="hover:underline">Project</a></li>
+                <li><a href="resume.html" class="hover:underline">Resume</a></li>
+                <li><a href="sample_project.html" class="hover:underline">Sample Project</a></li>
+            </ul>
+            </nav>
+        </div>
+        </header>
+        <!-- MAIN CONTENT -->
+        <main class="flex-1 container mx-auto px-6 py-10">
+            <header class="mb-10 text-center">
+            <h2 class="text-3xl font-bold mb-2">Featured Projects</h2>
+            <p class="text-slate-400">A collection of my best coding and web development work.</p>
+            </header>
+
+            <!-- PROJECT GRID -->
+            <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- PROJECT CARD -->
+            <div class="bg-slate-800 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <img src="../assets/images" alt="Project 1" class="w-full h-48 object-cover">
+                <div class="p-5 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold mb-2 text-blue-400">Weather App</h3>
+                    <p class="text-slate-400 text-sm">
+                    A live weather application built using HTML, CSS, and JavaScript, with OpenWeatherMap API.
+                    </p>
+                </div>
+                <div class="mt-4 flex justify-between items-center">
+                    <a href="#" class="text-blue-500 hover:underline font-semibold">View Project →</a>
+                    <span class="bg-blue-600 px-2 py-1 rounded text-xs text-white">API / JS</span>
+                </div>
+                </div>
+            </div>
+
+            <!-- PROJECT CARD -->
+            <div class="bg-slate-800 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <img src="../assets/images" alt="Project 2" class="w-full h-48 object-cover">
+                <div class="p-5">
+                <h3 class="text-xl font-bold mb-2 text-blue-400">Portfolio Website</h3>
+                <p class="text-slate-400 text-sm">
+                    A responsive website showcasing my TAFE assignments, styled with TailwindCSS.
+                </p>
+                <div class="mt-4 flex justify-between items-center">
+                    <a href="#" class="text-blue-500 hover:underline font-semibold">View Project →</a>
+                    <span class="bg-indigo-600 px-2 py-1 rounded text-xs text-white">Tailwind</span>
+                </div>
+                </div>
+            </div>
+
+            <!-- PROJECT CARD -->
+            <div class="bg-slate-800 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <img src="../assets/images" alt="Project 3" class="w-full h-48 object-cover">
+                <div class="p-5">
+                <h3 class="text-xl font-bold mb-2 text-blue-400">Car Park System</h3>
+                <p class="text-slate-400 text-sm">
+                    A simulation project using Python OOP concepts with real-time display and sensors.
+                </p>
+                <div class="mt-4 flex justify-between items-center">
+                    <a href="#" class="text-blue-500 hover:underline font-semibold">View Project →</a>
+                    <span class="bg-emerald-600 px-2 py-1 rounded text-xs text-white">Python</span>
+                </div>
+                </div>
+            </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="bg-blue-600 text-white shadow-inner border-t border-blue-500 mt-10"> 
+        <div class="container mx-auto p-4 flex flex-col md:flex-row justify-between items-center text-sm">
+            <section class="mb-4 md:mb-0 flex items-center space-x-4">
+            <img src="https://placehold.co/64?text=logo" alt="Logo" class="rounded">
+            <p>© 2025 Adrian Gould and Minh Ngo — All rights reserved.</p>
+            </section>
+            <section>
+            <ul class="flex flex-wrap justify-center md:justify-end space-x-6 text-gray-300">
+                <li><a href="home_page.html" class="hover:text-white">Home</a></li>
+                <li><a href="https://www.northmetrotafe.wa.edu.au/" class="hover:text-white">North Metro TAFE</a></li>
+                <li><a href="https://components.dev.screencraft.net.au/" class="hover:text-white">ScreenCraft Dev Sites</a></li>
+                <li><a href="contact_us_page.html" class="hover:text-white">Contact Us</a></li>
+                <li><a href="copyright.html" class="hover:text-white">Copyright</a></li>
+            </ul>
+            </section>
+        </div>
+        </footer>
+    </body>
+</html>
