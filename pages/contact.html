@@ -13,24 +13,26 @@
 
   <body class="min-h-screen flex flex-col bg-slate-900 text-slate-200">
     <!-- HEADER -->
-    <header class="bg-blue-600 text-white shadow-md">
-      <div class="container mx-auto flex justify-between items-center p-4">
-            <div class ="flex items-center space-x-3">
-                <img class =" h-12 w-12 object-cover rounded-full border-2 border-white shadow-sm" src = "../assets/images/cancer-zodiac.jpg" alt ="logo" >
-                <h1 class="text-xl sm:text-2xl front-bold leading-tight"> Minh Phuoc Ngo | Web Technologies Portfolio</h1>
+    <header class="relative bg-cover bg-center text-white shadow-md" style="background-image: url('../assets/images/header_image.jpeg');">
+        <div class="absolute inset-0 bg-black/50 z-0"></div>
+        <!-- Header content -->
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <div class="flex items-center space-x-3">
+                <img class="h-12 w-12 rounded-full border-2 border-white shadow" src="../assets/images/cancer-zodiac.jpg" alt="Logo"/>
+                <h1 class="text-2xl font-bold leading-tight drop-shadow-lg"> Minh Phuoc Ngo | Web Technologies Portfolio</h1>
             </div>
-        <nav>
-          <ul class="flex flex-wrap gap-4 text-sm sm:text-base font-semibold uppercase">
-            <li><a href="home_page.html" class="hover:underline">HOME PAGE</a></li>
-            <li><a href="about_us.html" class="hover:underline">ABOUT US</a></li>
-            <li><a href="contact.html" class="hover:underline">CONTACT</a></li>
-            <li><a href="copyright.html" class="hover:underline">COPYRIGHT</a></li>
-            <li><a href="project.html" class="hover:underline">PROJECT</a></li>
-            <li><a href="resume.html" class ="hover:underline" >RESUME</a></li>
-            <li><a href="sample_project.html " class ="hover:underline ">SAMPLE PROJECT </a></li>
-          </ul>
-        </nav>
-      </div>
+            <nav>
+                <ul class="flex flex-wrap gap-4 text-sm sm:text-base font-semibold uppercase drop-shadow-md">
+                  <li><a href="home_page.html" class="hover:underline">Home Page</a></li>
+                  <li><a href="about_us.html" class="hover:underline">About Us</a></li>
+                  <li><a href="contact.html" class="hover:underline">Contact</a></li>
+                  <li><a href="copyright.html" class="hover:underline">Copyright</a></li>
+                  <li><a href="project.html" class="hover:underline">Project</a></li>
+                  <li><a href="resume.html" class="hover:underline">Resume</a></li>
+                  <li><a href="sample_project.html" class="hover:underline">Sample Project</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- MAIN CONTENT -->
