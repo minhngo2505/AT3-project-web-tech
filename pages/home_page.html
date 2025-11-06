@@ -16,16 +16,17 @@
       <div class="absolute inset-0 bg-black/50 z-0"></div>
       <div class="container mx-auto relative z-10 flex flex-col sm:flex-row justify-between items-center p-4">
         <div class ="flex items-center space-x-3">
-            <img class =" h-12 w-12 rounded-full border-2 border-whites drop-shadow-lg"src = "../assets/images/cancer-zodiac.jpg" alt ="logo" >
-            <h1 class=" text-2xl font-bold leading-tight drop-shadow-lg"> Minh Phuoc Ngo | Web Technologies Portfolio</h1>
+          <img class ="h-12 w-12 rounded-full border-2 border-whites drop-shadow-lg"src = "../assets/images/cancer-zodiac.jpg" alt ="logo" >
+          <h1 class=" text-xl sm:text-2xl font-bold leading-tight drop-shadow-lg"> Minh Phuoc Ngo | Web Technologies Portfolio</h1>
+          <button id="menu-btn" class="block md:hidden focus:outline-none p-3 rounded-md shadow-lg">
+            <div class="space-y-2">
+              <div class="w-9 h-1 bg-white"></div>
+              <div class="w-9 h-1 bg-white"></div>
+              <div class="w-9 h-1 bg-white"></div>
+            </div>
+          </button>
         </div>
-        <button
-          id="menuBtn"
-          class="sm:hidden mt-4 text-white hover:text-blue-300 focus:outline-none"
-          aria-label="Toggle Menu">
-          <i class="fas fa-bars text-2xl"></i>
-        </button>
-        <nav id ="menu"class="hidden w-full sm:flex sm:w-auto flex-col sm:flex-row text-center mt-4 sm:mt-0 ">
+        <nav id ="menu"class="hidden absolute top-full left-0 w-full bg-slate-800/95 sm:static sm:flex sm:bg-transparent sm:w-auto transition-all duration-300 ease-in-out">
           <ul class="flex flex-wrap gap-4 text-sm sm:text-base font-semibold uppercase drop-shadow-md">
             <li><a href="home_page.html" class="hover:underline">HOME PAGE</a></li>
             <li><a href="about_us.html" class="hover:underline">ABOUT US</a></li>
@@ -39,14 +40,13 @@
       </div>
     </header>
     <script>
-      const menuBtn = document.getElementById('menuBtn');
-      const menu = document.getElementById('menu');
-      menuBtn.addEventListener('click', () => {
-        menu.classList.toggle('hidden');
+      const hamburger = document.getElementById("menu-btn");
+      const menu = document.getElementById("menu");
+
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
       });
     </script>
-    
-
     <!-- MAIN CONTENT -->
     <main class="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-8 container mx-auto px-4 flex-grow">
       <!-- left column ( Main Context)-->
