@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+        <title>Minh Phuoc Ngo | Web Tech | Cert 4 Prog</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="../assets/css/site.css" >
+    </head>
+
+    <body class="min-h-screen flex flex-col bg-slate-900 text-slate-200 " style ="background-image: url('../assets/images/background.jpg'); background-size: cover; background-attachment: fixed; ">
+        <!-- HEADER -->
+        <header class="relative bg-cover bg-center text-white shadow-md" style="background-image: url('../assets/images/header_image.jpeg');">
+            <div class="absolute inset-0 bg-black/50 z-0"></div>
+            <!-- Header content -->
+            <div class="container mx-auto flex justify-between items-center p-4">
+                <div class="flex items-center space-x-3">
+                    <img class="h-12 w-12 rounded-full border-2 border-white shadow" src="../assets/images/cancer-zodiac.jpg" alt="Logo"/>
+                    <h1 class="text-2xl font-bold leading-tight drop-shadow-lg"> Minh Phuoc Ngo | Web Technologies Portfolio</h1>
+                </div>
+                <nav>
+                    <ul class="flex flex-wrap gap-4 text-sm sm:text-base font-semibold uppercase drop-shadow-md">
+                        <li><a href="home_page.html" class="hover:underline">Home Page</a></li>
+                        <li><a href="about_us.html" class="hover:underline">About Us</a></li>
+                        <li><a href="contact.html" class="hover:underline">Contact</a></li>
+                        <li><a href="copyright.html" class="hover:underline">Copyright</a></li>
+                        <li><a href="project.html" class="hover:underline">Project</a></li>
+                        <li><a href="resume.html" class="hover:underline">Resume</a></li>
+                        <li><a href="sample_project.html" class="hover:underline">Sample Project</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- MAIN CONTENT -->
+        <main class="flex-1 container mx-auto px-6 py-10 ">
+            <header class="mb-10 text-center " >
+            <h2 class="text-3xl font-bold mb-2">Weather Application made by Maui.app </h2>
+            <p class="text-slate-400">This is one of My collection of my best coding and web development work.</p>
+            </header>
+            <div class ="flex-1 container mx-auto px-6 py-12 flex flex-col justify-center items-center">
+                <article class = "bg-slate-800/90  shadow-lg rounded-2xl p-8 w-full max-w-5xl style=" style ="background-image: url('../assets/images/weather.png');background-size: cover; background-attachment: fixed ;background-position: center;">
+                    <section class = "mb-10">
+                        <h2 class="text-2xl font-bold text-blue-400 mb-4">
+                            Weather Project Overview
+                        </h2>
+                        <p class =" text-slate-300 leading-relaxed">
+                            The Weather Application is a multi-platform app developed using
+                            <strong>.NET MAUI</strong>. It retrieves weather data in real time
+                            from the OpenWeatherMap API and displays information such as
+                            temperature, humidity, wind speed, and forecast in a simple,
+                            user-friendly interface. The app was designed to provide clean
+                            visuals and smooth interaction across both mobile and desktop
+                            devices.
+                        </p>
+                    </section>
+                    <!-- FUNCTIONALITY -->
+                    <section>
+                        <h2 class="text-2xl font-bold text-blue-400 mb-3">Key Functionality</h2>
+                        <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-slate-300 text-sm">
+                        <li class="bg-slate-700 p-4 rounded-xl hover:bg-slate-600 transition">
+                            🌤️ Real-time weather updates from OpenWeather API
+                        </li>
+                        <li class="bg-slate-700 p-4 rounded-xl hover:bg-slate-600 transition">
+                            🔍 Search function for any global city
+                        </li>
+                        <li class="bg-slate-700 p-4 rounded-xl hover:bg-slate-600 transition">
+                            🌈 Dynamic icons and backgrounds for weather types
+                        </li>
+                        <li class="bg-slate-700 p-4 rounded-xl hover:bg-slate-600 transition">
+                            📱 Responsive across Android, iOS & Windows
+                        </li>
+                        <li class="bg-slate-700 p-4 rounded-xl hover:bg-slate-600 transition">
+                            ⚙️ Built with MVVM architecture
+                        </li>
+                        <li class="bg-slate-700 p-4 rounded-xl hover:bg-slate-600 transition">
+                            🚨 Error handling for API & user input
+                        </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2 class="text-2xl font-bold text-blue-400 mb-4 text-center">
+                        Interface Preview
+                        </h2>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 justify-items-center">
+                        <img
+                            src="../assets/images/weather-homepage.png"
+                            alt="Weather App Home"
+                            class="rounded-lg shadow-lg border border-slate-700 w-full max-w-sm"
+                        />
+                        <img
+                            src="../assets/images/weather-result.png"
+                            alt="Weather App Result"
+                            class="rounded-lg shadow-lg border border-slate-700 w-full max-w-sm"
+                        />
+                        </div>
+                    </section>
+                    <section>
+                        <h2 class="text-2xl font-bold text-blue-400 mb-4">Technology Stack</h2>
+                        <div
+                        class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-center text-slate-300"
+                        >
+                        <div class="bg-slate-700 p-3 rounded-lg">.NET MAUI</div>
+                        <div class="bg-slate-700 p-3 rounded-lg">C#</div>
+                        <div class="bg-slate-700 p-3 rounded-lg">XAML</div>
+                        <div class="bg-slate-700 p-3 rounded-lg">OpenWeather API</div>
+                        <div class="bg-slate-700 p-3 rounded-lg">MVVM</div>
+                        <div class="bg-slate-700 p-3 rounded-lg">Visual Studio</div>
+                        </div>
+                    </section>
+                    <!-- CHALLENGES -->
+                    <section>
+                        <h2 class="text-2xl font-bold text-blue-400 mb-4">Challenges & Learnings</h2>
+                        <p class="text-slate-300 leading-relaxed">
+                        A key challenge was handling API response errors and ensuring smooth performance during network delays.  
+                        Implementing asynchronous API calls and using data binding in MAUI helped improve responsiveness.  
+                        This project strengthened my understanding of cross-platform app development and MVVM patterns.
+                        </p>
+                    </section>
+                    <section>
+                        <p3 class = "text-slate-400 text-sm" >Designed and developed by <strong>Minh Phuoc Ngo</strong> — 2025. <strong>however, this is just a Figma design, which is still in progress.</strong></p>
+                        <a href="https://github.com/minhngo2505/weatherapplication.git" class ="hover:underline text-blue-400">views source on github -></a>
+                    </section>
+
+                </article>
+            </div>
+            
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="relative bg-cover bg-center text-white shadow-md mt-10" style=" background-image: url('../assets/images/footer_image.jpeg');"> 
+        <div class="absolute inset-0 bg-black/50 z-0"></div>
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <section class="flex items-center space-x-3">
+            <img src="https://placehold.co/64?text=logo" alt="Logo" class=" h-12 w-12 rounded-full border-2 border-white drop-shadow-lg">
+            <p class="drop-shadow-lg">© 2025 Adrian Gould and Minh Ngo — All rights reserved.</p>
+            </section>
+            <section>
+            <ul class="flex flex-wrap justify-center md:justify-end space-x-6 text-gray-300 drop-shadow-md ">
+                <li><a href="home_page.html" class="hover:text-white">Home</a></li>
+                <li><a href="https://www.northmetrotafe.wa.edu.au/" class="hover:text-white">North Metro TAFE</a></li>
+                <li><a href="https://components.dev.screencraft.net.au/" class="hover:text-white">ScreenCraft Dev Sites</a></li>
+                <li><a href="contact_us_page.html" class="hover:text-white">Contact Us</a></li>
+                <li><a href="copyright.html" class="hover:text-white">Copyright</a></li>
+            </ul>
+            </section>
+        </div>
+        </footer>
+    </body>
+</html>
