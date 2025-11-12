@@ -45,18 +45,21 @@ TailwindCSS base colours and tints were used for consistency across the layout.
 ## 📁 Folder Structure
 ```plaintext
 project-root/
-│
+|
+|── index.html ( mainpage live on github)
 ├── assets/
-│   └── css/
-│       └── site.css          # Compiled Tailwind CSS output file
-│
-├── iamges/                   # Folder for project images (typo kept consistent with structure)
+│   |── css/
+│   |    └── site.css          # Compiled Tailwind CSS output file
+│   ├──js/
+|   |    └── contact.js
+|   ├──images/
+|       └── .....
+|                
 │
 ├── pages/
 │   ├── about_us.html
 │   ├── contact.html
 │   ├── copyright.html
-│   ├── home_page.html
 │   ├── project.html
 │   ├── resume.html
 │   └── sample_project.html
