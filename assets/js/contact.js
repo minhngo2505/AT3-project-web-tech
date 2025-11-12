@@ -1,3 +1,4 @@
+/* eslint-env browser */
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("contactform");
   const status1 = document.getElementById("status1"); // name error
