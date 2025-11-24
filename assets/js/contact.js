@@ -1,4 +1,5 @@
 /* eslint-env browser */
+// form validation js 
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("contactform");
   const status1 = document.getElementById("status1"); // name error
@@ -88,5 +89,14 @@ document.addEventListener("DOMContentLoaded", () => {
       status.textContent = "❌ Failed to send message. Please try again later.";
       status.className = "text-red-200 font-medium text-center";
     }
+  });
+});
+// Menu btn Js
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.getElementById("menu-btn");
+  const menu = document.getElementById("menu");
+
+  hamburger.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
   });
 });
